@@ -4,6 +4,8 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 */
 
+/* Base Styling */
+
 :root {
   --purple-accent: #646cff;
   --blue-accent: #61dafb;
@@ -14,14 +16,7 @@
   flex-direction: column;
 }
 
-header, main, footer {
-  padding: 2rem;
-}
-
-header {
-  background-color: var(--purple-accent);
-  min-height: 50px;
-}
+/* Main Sections */
 
 main {
   background-color: whitesmoke;

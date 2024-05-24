@@ -1,12 +1,16 @@
-import '../styles/App.css'
+
+// styling 
+import '../styles/App.css';
+
+// component import
+import HeaderSection from './HeaderSection.jsx';
 
 function App() {
+  // react states
 
   return (
     <div className='blog-container'>
-      <header>
-
-      </header>
+      <HeaderSection />
 
       <main>
 
