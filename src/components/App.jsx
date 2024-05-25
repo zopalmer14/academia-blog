@@ -7,6 +7,7 @@ import '../styles/App.css';
 
 // component import
 import HeaderSection from './HeaderSection.jsx';
+import BlogEntry from './BlogEntry.jsx';
 
 // example blog entry data
 const exampleBlogEntries = [
@@ -51,10 +52,16 @@ function App() {
       <HeaderSection />
 
       <main>
-        <ul className='blog-entry-list'>
-          {blogEntries.map((blogEntry) => {
+        <ul>
+          {blogEntries.map((blogEntry, index) => {
             return (
-              <BlogEntry key={blogEntry.title} entries={blogEntries} />
+              <BlogEntry 
+                key={index} 
+                title={blogEntry.title}
+                author={blogEntry.author}
+                date={blogEntry.date}
+                contents={blogEntry.contents}
+              />
             )
           })}
         </ul>

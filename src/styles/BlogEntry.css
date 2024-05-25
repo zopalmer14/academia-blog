@@ -1,0 +1,23 @@
+
+.blog-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+.blog-entry h1 {
+    font-size: 1.5rem;
+}
+
+.blog-entry h1, .blog-entry h2 {
+    font-weight: bold;
+}
+
+.blog-entry .entry-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
