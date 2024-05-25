@@ -35,10 +35,3 @@ main ul {
   max-width: 75ch;
   line-height: 1.5;
 }
-
-/* Footer Styling */ 
-
-footer {
-  background-color: var(--blue-accent);
-  min-height: 50px;
-}

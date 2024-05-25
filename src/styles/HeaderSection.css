@@ -7,7 +7,7 @@ header {
     align-items: center;
   
     background-color: var(--purple-accent);
-    padding: 1rem;
+    padding: 1rem 4rem;
   }
   
   header h1 {
